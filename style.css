@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding-top: 30rem;
+  margin-bottom: 110rem;
+}
+
+p {
+  color: white;
+  font-size: 35rem;
+  padding-top: 9rem;
+}
+
+h1 {
+  color: red;
+  font-size: 60rem;
+  font-weight: 300;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70rem;
+}
+
+.right {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+
+  width: 450rem;
+  height: 450rem;
+  border: solid 1rem black;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1rem solid black;
+}
+
+.colorInput {
+  width: 70rem;
+  height: 30rem;
+  padding: 0rem;
+  margin-bottom: 25rem;
+}
+
+button {
+  margin-bottom: 20rem;
+  background-color: black;
+  border: 1rem solid white;
+  color: white;
+  border-radius: 5rem;
+  font-size: 15rem;
+  width: 120rem;
+  padding: 5rem 0rem 5rem 0rem;
+}
