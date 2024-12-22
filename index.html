@@ -11,13 +11,20 @@
       <p>ETCH A</p>
       <h1>SKETCH</h1>
     </header>
+
     <div class="container">
       <div class="left">
         <input type="color" class="colorInput" value="#ff0000" />
-        <button>Color Mode</button>
-        <button>Random Mode</button>
-        <button>Eraser</button>
-        <button>Clear</button>
+        <button class="colorMode">Color Mode</button>
+        <button class="randomMode">Random Mode</button>
+        <button class="eraser">Eraser</button>
+        <button class="clear">Clear</button>
+        <div class="spanDiv">
+          <span class="sizeSpan1">16</span>
+          <p class="spanP">X</p>
+          <span class="sizeSpan2">16</span>
+        </div>
+        <input type="range" min="4" max="64" value="16" class="rangeInput" />
       </div>
       <div class="right"></div>
     </div>

@@ -59,7 +59,7 @@ h1 {
 }
 
 .grid-item {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: 1rem solid black;
 }
 
@@ -79,4 +79,25 @@ button {
   font-size: 15rem;
   width: 120rem;
   padding: 5rem 0rem 5rem 0rem;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.spanDiv {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  margin-bottom: 10rem;
+}
+
+span {
+  color: white;
+  font-size: 25rem;
+}
+
+.spanP {
+  font-size: 25rem;
 }
